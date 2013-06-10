@@ -19,7 +19,7 @@ You create the buttons you want to be clicked or you can use the provided plain 
 
 The included CSS will make it look like this if you use the included HTML.
 
-![buttons.png]()
+![](buttons.png)
 
 ### jQuery
 
