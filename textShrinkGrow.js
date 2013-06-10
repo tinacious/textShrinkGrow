@@ -1,6 +1,6 @@
 /*
  *  Tinacious Design Text Shrink & Grow jQuery plugin
- *  Plugin URL: https://github.com/tinacious/textSizer
+ *  Plugin URL: https://github.com/tinacious/textShrinkGrow
  *
  *  Christina Holly (Tinacious Design)
  *  http://tinaciousdesign.com
