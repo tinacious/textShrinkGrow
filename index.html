@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="shrinkList jQuery plugin demo by Tinacious Design">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jQuery Shrink and Grow Text</title>
+		<script type="text/javascript" src="//use.typekit.net/fcj5mrj.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<link rel="stylesheet" type="text/css" href="http://christinaholly.com/site/templates/css/main.css">
+		<style>
+			/* demo theme styles */
+			.container {
+				max-width: 600px;
+			}
+			.site-header .logo {
+				width: 100%;
+			}
+			.logo span, .logo img {
+				display: block;
+				float: left;
+			}
+			.logo span {
+				padding: 10px 0 0 10px;
+			}
+			.site-header {
+				padding: 5px 0;
+				z-index: 9999;
+			}
+			@media (max-width: 767px) { 
+				.site-header .logo span {
+					display: block; 
+				} 
+			}
+
+			/* demo styles */
+			.default, .my_video {
+				margin-bottom: 40px;
+			}
+		</style>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		
+		<script src="textShrinkGrow.min.js"></script>
+		<link rel="stylesheet" href="textShrinkGrow.css">
+		<script>
+			$(document).ready(function(){
+				$('.shrink-link').textShrink();
+				$('.grow-link').textGrow();
+			})
+		</script>
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container">
+				<div class="logo">
+					<img src="http://tinaciousdesign.com/images/td-logo.png" alt="Tinacious Design logo" width="50">
+					<span><b><a href="/">Tinacious Design</a></b> &ndash; plugin demos</span>
+				</div>
+			</div>
+		</header>
+
+		<section class="site-content">
+			<div class="container">
+				<h1>jQuery Shrink and Grow Text</h1>
+				<p>
+					This jQuery plugin was developed for use in Accessible Web Design for users to increase and decrease their font size using on-page controls.
+				</p>
+				<p>
+					In order for this to work, all of your declared font sizes need to be sized relative to the body and cannot have absolute values, i.e. use ems or percentages instead of pixels.
+				</p>
+
+				<h2>Demo</h2>
+				<p>
+					Click the following links to adjust the size of the current page.
+				</p>
+
+				<span class="shrink-link">A</span>
+				<span class="grow-link">A</span>
+
+				<p>
+					<br><a href="http://github.com/tinacious/textShrinkGrow" class="btn">Download on Github</a>
+				</p>
+			</div>
+		</section>
+	</body>
+</html>
