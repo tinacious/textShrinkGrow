@@ -34,4 +34,4 @@ $(document).ready(function(){
 
 ## Demo
 
-To see a working demo, click [here](http://christinaholly.com/sandbox/plugins/textShrinkGrow/)
+To see a working demo, click [here](http://tinacious.github.io/textShrinkGrow/)
