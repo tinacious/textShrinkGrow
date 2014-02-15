@@ -35,3 +35,5 @@ $(document).ready(function(){
 ## Demo
 
 To see a working demo, click [here](http://tinacious.github.io/textShrinkGrow/)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tinacious/textshrinkgrow/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
